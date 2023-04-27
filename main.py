@@ -2,7 +2,7 @@ import dash_mantine_components as dmc
 from dash import dcc, html
 import dash
 from dash_iconify import DashIconify
-from sklearn_callback import *
+from dash_callback import *
 
 app = dash.Dash(__name__)
 data = [["tf", "TensorFlow"], ["sk", "Sklearn"]]
